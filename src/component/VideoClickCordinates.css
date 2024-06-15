@@ -1,0 +1,55 @@
+.video-container {
+    position: relative;
+    display: inline-block;
+    font-family: Arial, sans-serif;
+  }
+  
+  .shape-selector {
+    margin-bottom: 10px;
+  }
+  
+  .shape-selector label {
+    margin-right: 5px;
+  }
+  
+  .shape-selector select {
+    padding: 5px;
+  }
+  
+  .video-wrapper {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .video {
+    cursor: crosshair;
+    display: block;
+    border: 1px solid #ccc;
+  }
+  
+  .canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+  }
+  
+  .coordinates-list {
+    margin-top: 20px;
+  }
+  
+  .coordinates-list h3 {
+    margin-bottom: 10px;
+  }
+  
+  .coordinates-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .coordinates-list li {
+    background: #f9f9f9;
+    margin: 5px 0;
+    padding: 5px;
+    border: 1px solid #ddd;
+  }
